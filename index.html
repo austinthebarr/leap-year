@@ -2,7 +2,7 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.csss" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Leap year detector</title>
@@ -16,10 +16,12 @@
           <label for="year">Enter a year and find out if it's a leap year:</label>
           <input id="year" type="text"></input>
         </div>
+
         <button type="submit" class="btn btn-success">Find out!</button>
       </form>
-      <div id="result">
 
+      <div id="result">
+        <p><span class="year"></span> is <span class="not"></span> a leap year.</p>
       </div>
     </div>
   </body>
